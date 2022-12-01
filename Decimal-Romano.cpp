@@ -31,6 +31,6 @@ int main()
         if (x >= 1) { cout << "I"; x = x - 1; }
 
     }
-    cout << x;
+    cout << endl;
    
 }
