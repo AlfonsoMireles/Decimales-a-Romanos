@@ -12,5 +12,8 @@ int main()
     {
 
         if (x >= 900) { cout << "CM"; x = x - 900; }
-      
+        if (x >= 500) { cout << "D"; x = x - 500; }
+        if (x >= 400) { cout << "CD"; x = x - 400; }
+        if (x >= 300) { cout << "C"; x = x - 100; }
+       
 }
